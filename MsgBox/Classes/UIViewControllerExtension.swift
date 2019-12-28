@@ -12,7 +12,7 @@ import MBProgressHUD
 extension UIViewController {
     //包含两个常用方法,转圈的indeterminate，文本的text
     
-    func showMsg(_ text: String){
+    public func showMsg(_ text: String){
         let hud = MBProgressHUD.showAdded(to: self.view, animated: true)
         hud.mode = .text
              hud.contentColor = UIColor.white
@@ -23,7 +23,7 @@ extension UIViewController {
              hud.hide(animated: true, afterDelay: 1.2)
     }
     
-    func showLoad(_ text: String){
+    public func showLoad(_ text: String){
         let hud = MBProgressHUD.showAdded(to: self.view, animated: true)
         hud.mode = .indeterminate
              hud.contentColor = UIColor.white
@@ -34,7 +34,7 @@ extension UIViewController {
              //hud.hide(animated: true, afterDelay: 1.2)
     }
     
-    func hideLoad(animated: Bool = true){
+    public func hideLoad(animated: Bool = true){
         MBProgressHUD.hide(for: self.view, animated: animated)
     }
 }

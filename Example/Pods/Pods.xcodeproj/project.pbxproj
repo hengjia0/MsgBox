@@ -97,7 +97,7 @@
 		B934C14E4E269C41D54D8FA866C1093B /* MsgBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MsgBox.xcconfig; sourceTree = "<group>"; };
 		BA450D5FBF364CCBB2D68C393D626E06 /* Pods-MsgBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MsgBox_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BBFE4313B24B1C09CAF4727DD4C9201E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		C55C2B1D757AEE72F248881B7D1003AF /* MsgBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MsgBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C55C2B1D757AEE72F248881B7D1003AF /* HudMsgBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HudMsgBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C8418BE489200FAACD89AC9388C3A07F /* MsgBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MsgBox-dummy.m"; sourceTree = "<group>"; };
 		C9E9C5262793523B3D4629B198D562D2 /* Pods-MsgBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MsgBox_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E6584E1984A3CC79C447B818C6F79920 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -169,7 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				554EA66F8B2647662255D49F1A0279D4 /* LICENSE */,
-				C55C2B1D757AEE72F248881B7D1003AF /* MsgBox.podspec */,
+				C55C2B1D757AEE72F248881B7D1003AF /* HudMsgBox.podspec */,
 				0533BF35EB02B57511C28FA7DA9CA321 /* README.md */,
 			);
 			name = Pod;

@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MsgBox'
+  s.name             = 'HudMsgBox'
   s.version          = '0.1.0'
   s.summary          = 'UIViewController‘s Extension for show MsgBox.'
 
