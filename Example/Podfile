@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MsgBox_Example' do
+  pod 'MsgBox', :path => '../'
+
+  target 'MsgBox_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
