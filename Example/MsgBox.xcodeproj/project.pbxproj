@@ -40,13 +40,13 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		69946E165E977DC0978E521F /* Pods-MsgBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MsgBox_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MsgBox_Tests/Pods-MsgBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6AB9DD3EE7928445830713BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		71366D809A27E9DBE70BB4B2 /* MsgBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MsgBox.podspec; path = ../MsgBox.podspec; sourceTree = "<group>"; };
+		6AB9DD3EE7928445830713BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		71366D809A27E9DBE70BB4B2 /* MsgBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MsgBox.podspec; path = ../MsgBox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7EFC210060217C4F009B6740 /* Pods_MsgBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MsgBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9196E089502E8103E21A4353 /* Pods_MsgBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MsgBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDB5CFA3423DEF41FCD9D06 /* Pods-MsgBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MsgBox_Tests.release.xcconfig"; path = "Target Support Files/Pods-MsgBox_Tests/Pods-MsgBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C9426078F8F3F81593D50C00 /* Pods-MsgBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MsgBox_Example.release.xcconfig"; path = "Target Support Files/Pods-MsgBox_Example/Pods-MsgBox_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FB0BFA3F3F9FE8D5279544CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FB0BFA3F3F9FE8D5279544CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				69946E165E977DC0978E521F /* Pods-MsgBox_Tests.debug.xcconfig */,
 				BCDB5CFA3423DEF41FCD9D06 /* Pods-MsgBox_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -291,10 +291,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MsgBox_Example/Pods-MsgBox_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MsgBox/MsgBox.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MsgBox.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

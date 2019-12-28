@@ -1,0 +1,23 @@
+PODS:
+  - MBProgressHUD (1.1.0)
+  - MsgBox (0.1.0):
+    - MBProgressHUD
+
+DEPENDENCIES:
+  - MsgBox (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  MsgBox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MsgBox: 52ebc498c51ca9d49f27f941ea1cf9f982c2957f
+
+PODFILE CHECKSUM: eb8cea95c8d62f585116871064abd32def5a2803
+
+COCOAPODS: 1.8.4

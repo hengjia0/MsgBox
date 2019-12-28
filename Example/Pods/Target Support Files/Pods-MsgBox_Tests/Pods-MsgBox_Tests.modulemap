@@ -1,0 +1,6 @@
+framework module Pods_MsgBox_Tests {
+  umbrella header "Pods-MsgBox_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

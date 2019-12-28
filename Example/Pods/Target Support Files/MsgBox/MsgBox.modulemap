@@ -1,0 +1,6 @@
+framework module MsgBox {
+  umbrella header "MsgBox-umbrella.h"
+
+  export *
+  module * { export * }
+}
