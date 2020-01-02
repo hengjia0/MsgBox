@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HudMsgBox'
   s.version          = '0.1.1'
-  s.summary          = 'UIViewController‘s Extension for show MsgBox.'
+  s.summary          = 'UIViewController's Extension for show MsgBox.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,8 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: 'UIViewController‘s Extension for show MsgBox.'
+  s.description = <<-DESC
+    UIViewController's Extension for show MsgBox.
+  DESC
 
   s.homepage         = 'https://github.com/hengjia0/MsgBox'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
